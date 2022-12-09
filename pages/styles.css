@@ -35,7 +35,7 @@ body {
     gap: 64px;
 }
 
-.header {    
+.header {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -50,8 +50,8 @@ body {
 
 .header-title h1 {
     width: 100%;
-    font-weight: 700;
-    font-size: 72px;
+    font-weight: 600;
+    font-size: 42px;
     letter-spacing: -4px;
     line-height: 1.2em;
     text-align: center;
@@ -113,8 +113,10 @@ body {
     text-transform: none;
 }
 
-textarea {
+.bText {
     font-family: 'Manrope', sans-serif;
+	width: 200px;
+	height: 100%;
 }
 
 
@@ -122,6 +124,9 @@ textarea {
     border-color:rgba(255, 255, 255, 0.75)
 }
 
+#key_entered {
+    display: none;
+}
 
 .prompt-buttons {
     display: flex;
@@ -163,6 +168,10 @@ textarea {
     justify-content: flex-start;
     flex-shrink: 0;
     transform: none;
+}
+
+#key_needed p{
+	color:rgb(255, 255, 255)
 }
 
 .or p {

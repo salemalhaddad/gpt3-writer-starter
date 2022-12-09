@@ -11,12 +11,19 @@
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
+    "@nextui-org/react": "^1.0.0-beta.10",
+    "dotenv": "^16.0.3",
     "eslint": "8.27.0",
     "eslint-config-next": "13.0.3",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "framer-motion": "^6.5.1",
-    "next": "13.0.3",
+    "fs": "^0.0.1-security",
+    "next": "^13.0.6",
+    "next-env": "^1.1.1",
     "openai": "^3.1.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "4.0.3",
+    "webpack": "^5.75.0"
   }
 }
