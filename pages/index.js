@@ -74,6 +74,7 @@ const Home = () => {
 				<br></br>
 				<p>	• Results will be generated using GPT-3, a state-of-the-art language model that can generate text based on a prompt. </p>
 				<p>	• Scroll down to see the results after filling the prompt and clicking generate. </p>
+				<p>	• Data comes from reports by consulting companies, trusted global organizations, and top-tier academic papers. </p>
 			</div>
 			</div>
 
