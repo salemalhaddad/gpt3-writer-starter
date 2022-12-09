@@ -71,28 +71,17 @@ const Home = () => {
 
 			<div className="header-subtitle">
 				<h2>How would the 4IR be helpful? How will it optimize certain industries? Select an industry to answer these questions: </h2>
-				{/* <p>1. Insert your OpenAI's API key (it will not be stored)</p>
-				<p>2. Select an industry you'd like to know it's future after the 4IR</p> */}
+				<br></br>
+				<p>	• Results will be generated using GPT-3, a state-of-the-art language model that can generate text based on a prompt. </p>
+				<p>	• Scroll down to see the results after filling the prompt and clicking generate. </p>
 			</div>
 			</div>
-			{/* <div id="key_needed">
-				<p>To get started, add your OpenAI API Key!</p>
-				<input id="key_input"
-					type="text"
-					value={inputValue}
-					onChange={onUserChangedKey}
-				/>
-				<button id="save_key_button" >Add key</button>
-			</div>
-			<div id="key_entered">
-				<p>You entered your OpenAI API Key.</p>
-				<button id="change_key_button">Change key</button>
-			</div> */}
+
 			<Textarea
 				className="bText"
 				label="Write your thoughts"
 				color="default"
-				placeholder="Enter your amazing ideas."
+				placeholder="Enter an industry of your choice."
 				value={userInput}
 				onChange={onUserChangedText}
 			/>
@@ -104,6 +93,7 @@ const Home = () => {
 				<div className="generate">
 				{isGenerating ? <span className="loader"></span> : <p>Generate</p>}
 				</div>
+
 			</a>
 			</div>
 			{apiOutput && (
@@ -119,18 +109,7 @@ const Home = () => {
 			</div>
 			)}
 		</div>
-		<div className="badge-container grow">
-			<a
-			href="https://buildspace.so/builds/ai-writer"
-			target="_blank"
-			rel="noreferrer"
-			>
-			<div className="badge">
-				<Image src={buildspaceLogo} alt="buildspace logo" />
-				<p>build with buildspace</p>
-			</div>
-			</a>
-		</div>
+
 		</div>
 	);
 };
